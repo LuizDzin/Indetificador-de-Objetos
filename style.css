@@ -1,11 +1,14 @@
   .heading
   {
+    font-size: 23px;
     width: 100%;
     margin: 0px;
     box-shadow:5px 5px 5px grey;
   }
   .headingDiv
   {
+    float: none;
+    padding: 10px;
     background: white ; 
     border-radius: 20px; 
     color: black;
@@ -15,9 +18,24 @@
   {
     font-size: 18px ;
   }
-  .result_para_tag
+  .resultToTag
   {
     box-shadow:5px 5px 5px grey;
     font-size: 20px;
   }
- 
+
+  .resultToTag span{
+    white-space: pre-line;
+  }
+
+  .copyRightFooter{
+    font-size: 14px;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    line-height: 4;
+    box-shadow: 5px 5px 5px 10px grey;
+  }
